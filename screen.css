@@ -139,16 +139,40 @@ table {
 	padding-top: 5%;
 }
 
-#signup {
+#joinus{
 	background-color: #29A3C2;
 	min-height: 20em;
 }
 
-#signup h1 {
+#joinus h1 {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 1.5em;
 	text-align: center;
 	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#joinus p{
+	font-family: Verdana, Geneva, sans-serif;
+	padding-left: 5%;
+	padding-bottom: 5%
+}
+
+.signup {
+	padding-left: 5%;
+}
+
+.signup_input{
+	border-radius: 0.25em;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.8em; /*14.4px*/
+}
+
+.signup_submit{
+	border-radius: 0.25em;
+	background-color: #FAFAFA;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.8em; /*14.4*/
 }
 
 @media screen and (min-width: 27.50em) {  /*440px*/
@@ -191,6 +215,7 @@ table {
 #services ul {
 	font-family: Verdana, Geneva, sans-serif;
 	padding: 10%;
+	font-size: 1.25em;
 }
 
 #services ul li {
