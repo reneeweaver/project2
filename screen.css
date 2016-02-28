@@ -82,6 +82,19 @@ table {
 	min-height: 20em;
 }
 
+#staff h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 5%;
+}
+
+#staff img{
+	padding-left: 25%;
+	max-width: 50%;
+	display: block;
+}
+
 #services {
 	background-color: #1BB4C2;
 	min-height: 20em;
@@ -101,23 +114,29 @@ table {
 
 #main h1 {
 	font-family: 'Tangerine', cursive;
-	font-size: 6em;
+	font-size: 6em; /*108px*/
 	text-align: center;
 	padding-top: 2em;
 }
 
 #main h2{
-	font-size: 1.5em;
+	font-size: 1.5em; /*27px*/
 	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
 	
 }
 
 #main p{
-	font-size: .825em;
+	font-size: .825em; /*14px*/
 	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
 	padding-top: 8%;
+}
+
+#staff img{
+	padding-left: 5%;
+	max-width: 25%;
+	display: inline;
 }
 
 @media screen and (min-width: 50em) { /*800px*/
@@ -130,7 +149,7 @@ table {
 }
 
 #main h2{
-	font-size: 2em;
+	font-size: 2em; /*36px*/
 	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
 	
@@ -141,6 +160,12 @@ table {
 	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
 	padding-top: 8%;
+}
+
+#staff img{
+	padding-left: 8%;
+	max-width: 30%;
+	display: inline;
 }
 
 
