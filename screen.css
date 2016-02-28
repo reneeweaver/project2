@@ -58,9 +58,23 @@ table {
 
 #main h1 {
 	font-family: 'Tangerine', cursive;
-	font-size: 15vw;
+	font-size: 5em;
 	text-align: center;
 	padding-top: 3em;
+}
+
+#main h2{
+	font-size: 1em;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	
+}
+
+#main p{
+	font-size: .625em;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	padding-top: 8%;
 }
 
 #staff {
@@ -87,9 +101,23 @@ table {
 
 #main h1 {
 	font-family: 'Tangerine', cursive;
-	font-size: 15vw;
+	font-size: 6em;
 	text-align: center;
 	padding-top: 2em;
+}
+
+#main h2{
+	font-size: 1.5em;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	
+}
+
+#main p{
+	font-size: .825em;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	padding-top: 8%;
 }
 
 @media screen and (min-width: 50em) { /*800px*/
@@ -99,6 +127,20 @@ table {
 	font-size: 15vw;
 	text-align: center;
 	padding-top: 1em;
+}
+
+#main h2{
+	font-size: 2em;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	
+}
+
+#main p{
+	font-size: 1em;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	padding-top: 8%;
 }
 
 
