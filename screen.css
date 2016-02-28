@@ -171,7 +171,7 @@ table {
 #staff img{
 	padding-left: 5%;
 	max-width: 25%;
-	display: inline;
+	display: block;
 }
 
 #services ul {
@@ -212,7 +212,7 @@ table {
 
 #staff img{
 	padding-left: 8%;
-	max-width: 30%;
+	max-width: 15%;
 	display: inline;
 }
 
