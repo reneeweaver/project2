@@ -100,14 +100,49 @@ table {
 	min-height: 20em;
 }
 
+#services h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 5%;
+}
+
+#services ul {
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 10%;
+}
+
+#services ul li {
+	padding: 8%;
+}
+
+#services ol {
+	font-family: Verdana, Geneva, sans-serif;
+	display: none;
+}
+
 #specials {
 	background-color: #DAD6D7;
 	min-height: 20em;
 }
 
+#specials h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 5%;
+}
+
 #signup {
 	background-color: #29A3C2;
 	min-height: 20em;
+}
+
+#signup h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 5%;
 }
 
 @media screen and (min-width: 27.50em) {  /*440px*/
@@ -137,6 +172,19 @@ table {
 	padding-left: 5%;
 	max-width: 25%;
 	display: inline;
+}
+
+#services ul {
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 10%;
+}
+
+#services ul li {
+	padding: 2%;
+}
+
+#services ol {
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 @media screen and (min-width: 50em) { /*800px*/
