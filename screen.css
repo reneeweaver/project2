@@ -48,3 +48,36 @@ table {
 }
 
 /* Above is CSS Reset, below starts project 1 CSS*/
+
+#main {
+	background-color: #12538F;
+	min-height: 20em;
+}
+
+#staff {
+	background-color: #DAD6D7;
+	min-height: 20em;
+}
+
+#services {
+	background-color: #1BB4C2;
+	min-height: 20em;
+}
+
+#specials {
+	background-color: #DAD6D7;
+	min-height: 20em;
+}
+
+#signup {
+	background-color: #29A3C2;
+	min-height: 20em;
+}
+
+
+
+
+
+
+
+
