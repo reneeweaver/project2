@@ -95,6 +95,12 @@ table {
 	display: block;
 }
 
+#staff figcaption{
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	padding-bottom: 5%;
+}
+
 #services {
 	background-color: #1BB4C2;
 	min-height: 20em;
@@ -168,10 +174,18 @@ table {
 	padding-top: 8%;
 }
 
+#staff figure{
+	position: relative;
+}
+
 #staff img{
 	padding-left: 5%;
-	max-width: 25%;
-	display: block;
+	max-width: 50%;
+}
+
+#staff figcaption{
+	font-family: Verdana, Geneva, sans-serif;
+	padding-bottom: 5%;
 }
 
 #services ul {
@@ -213,6 +227,10 @@ table {
 #staff img{
 	padding-left: 8%;
 	max-width: 15%;
+	display: inline;
+}
+
+#staff figcaption{
 	display: inline;
 }
 
