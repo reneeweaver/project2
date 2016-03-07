@@ -85,20 +85,20 @@ table {
 #staff h1 {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 1.5em;
-	text-align: center;
+	margin-left: 25%;
 	padding-top: 5%;
 }
 
 #staff img{
 	padding-left: 25%;
-	max-width: 50%;
+	max-width: 20%;
 	display: block;
 }
 
 #staff figcaption{
 	font-family: Verdana, Geneva, sans-serif;
-	text-align: center;
-	padding-bottom: 5%;
+	padding: 2%;
+	margin-left: 25%;
 }
 
 #services {
