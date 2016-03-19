@@ -96,7 +96,8 @@ table {
 }
 
 #staff figcaption{
-	padding: 2%;
+	float: right;
+	position: relative;
 	margin-left: 25%;
 }
 
@@ -132,6 +133,22 @@ table {
 	font-size: 1.5em;
 	text-align: center;
 	padding-top: 5%;
+}
+
+#specials img {
+	border-radius: 50%;
+	margin-left: .6em;
+	margin-top: .6em;
+	width: 6em;
+	height: 6em;
+
+}
+
+#specials figcaption {
+	float: right;
+	padding-top: 10%;
+	padding-right: 10%;
+	position: relative;
 }
 
 #joinus{
@@ -212,6 +229,22 @@ table {
 #services ol {
 }
 
+#specials img {
+	border-radius: 50%;
+	margin-right: .6em;
+	margin-top: .6em;
+	width: 8em;
+	height: 8em;
+
+}
+
+#specials figcaption {
+	float: left;
+	padding-top: 10%;
+	padding-left: 10%;
+	position: relative;
+}
+
 @media screen and (min-width: 50em) { /*800px*/
 
 #main h1 {
@@ -241,6 +274,22 @@ table {
 
 #staff figcaption{
 	display: inline;
+}
+
+#specials img {
+	float: left;
+	border-radius: 50%;
+	margin-right: .6em;
+	margin-top: .6em;
+	width: 10em;
+	height: 10em;
+
+}
+
+#specials figcaption {
+	padding-top: 10%;
+	padding-left: 10%;
+	position: relative;
 }
 
 
