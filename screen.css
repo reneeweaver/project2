@@ -51,6 +51,9 @@ table {
 
 /* 18px = 1em*/
 
+#html {
+	font-family: Verdana, Geneva, sans-serif;
+}
 #main {
 	background-color: #12538F;
 	min-height: 40em;
@@ -65,14 +68,12 @@ table {
 
 #main h2{
 	font-size: 1em;
-	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
 	
 }
 
 #main p{
 	font-size: .625em;
-	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
 	padding-top: 8%;
 }
@@ -83,7 +84,6 @@ table {
 }
 
 #staff h1 {
-	font-family: Verdana, Geneva, sans-serif;
 	font-size: 1.5em;
 	margin-left: 25%;
 	padding-top: 5%;
@@ -96,7 +96,6 @@ table {
 }
 
 #staff figcaption{
-	font-family: Verdana, Geneva, sans-serif;
 	padding: 2%;
 	margin-left: 25%;
 }
@@ -107,14 +106,12 @@ table {
 }
 
 #services h1 {
-	font-family: Verdana, Geneva, sans-serif;
 	font-size: 1.5em;
 	text-align: center;
 	padding-top: 5%;
 }
 
 #services ul {
-	font-family: Verdana, Geneva, sans-serif;
 	padding: 10%;
 }
 
@@ -123,7 +120,6 @@ table {
 }
 
 #services ol {
-	font-family: Verdana, Geneva, sans-serif;
 	display: none;
 }
 
@@ -133,7 +129,6 @@ table {
 }
 
 #specials h1 {
-	font-family: Verdana, Geneva, sans-serif;
 	font-size: 1.5em;
 	text-align: center;
 	padding-top: 5%;
@@ -145,7 +140,6 @@ table {
 }
 
 #joinus h1 {
-	font-family: Verdana, Geneva, sans-serif;
 	font-size: 1.5em;
 	text-align: center;
 	padding-top: 5%;
@@ -153,7 +147,6 @@ table {
 }
 
 #joinus p{
-	font-family: Verdana, Geneva, sans-serif;
 	padding-left: 5%;
 	padding-bottom: 5%
 }
@@ -164,14 +157,12 @@ table {
 
 .signup_input{
 	border-radius: 0.25em;
-	font-family: Verdana, Geneva, sans-serif;
 	font-size: 0.8em; /*14.4px*/
 }
 
 .signup_submit{
 	border-radius: 0.25em;
 	background-color: #FAFAFA;
-	font-family: Verdana, Geneva, sans-serif;
 	font-size: 0.8em; /*14.4*/
 }
 
@@ -186,14 +177,12 @@ table {
 
 #main h2{
 	font-size: 1.5em; /*27px*/
-	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
 	
 }
 
 #main p{
 	font-size: .825em; /*14px*/
-	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
 	padding-top: 8%;
 }
@@ -208,12 +197,10 @@ table {
 }
 
 #staff figcaption{
-	font-family: Verdana, Geneva, sans-serif;
 	padding-bottom: 5%;
 }
 
 #services ul {
-	font-family: Verdana, Geneva, sans-serif;
 	padding: 10%;
 	font-size: 1.25em;
 }
@@ -223,7 +210,6 @@ table {
 }
 
 #services ol {
-	font-family: Verdana, Geneva, sans-serif;
 }
 
 @media screen and (min-width: 50em) { /*800px*/
@@ -237,14 +223,12 @@ table {
 
 #main h2{
 	font-size: 2em; /*36px*/
-	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
 	
 }
 
 #main p{
 	font-size: 1em;
-	font-family: Verdana, Geneva, sans-serif;
 	text-align: center;
 	padding-top: 8%;
 }
