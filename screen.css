@@ -90,15 +90,16 @@ table {
 }
 
 #staff img{
-	padding-left: 25%;
-	max-width: 20%;
-	display: block;
+	padding-left: 5%;
+	max-width: 20%;	
+	
 }
 
 #staff figcaption{
 	float: right;
 	position: relative;
-	margin-left: 25%;
+	margin-right: 35%;
+	margin-top: 7%;
 }
 
 #services {
@@ -210,11 +211,11 @@ table {
 
 #staff img{
 	padding-left: 5%;
-	max-width: 50%;
+	max-width: 20%;
 }
 
 #staff figcaption{
-	padding-bottom: 5%;
+	float: right;
 }
 
 #services ul {
@@ -267,13 +268,13 @@ table {
 }
 
 #staff img{
-	padding-left: 8%;
+	padding-left: 5%;
 	max-width: 15%;
 	display: inline;
 }
 
 #staff figcaption{
-	display: inline;
+	padding-right: 10%;
 }
 
 #specials img {
@@ -291,6 +292,8 @@ table {
 	padding-left: 10%;
 	position: relative;
 }
+
+
 
 
 
