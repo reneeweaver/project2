@@ -55,14 +55,14 @@
     </a>
     <ul>
    
-    	<li><a data_list="facials_list" id="facials" href="#services">Facials</a></li>
+    	<li><a name="facials_list" id="facials" href="#services">Facials</a></li>
     	<ol class="hide" id="facials_list">
             <li>Classic facial</li>
     		<li>Dermaplaning facial</li>
     		<li>Microdermabrasion facial</li>
     	</ol>
 
-        <li><a data_list="massage_list" id="massage" href="#services">Massage Therapy</a></li>
+        <li><a name="massage_list" id="massage" href="#services">Massage Therapy</a></li>
         <ol class="hide" id="massage_list">
             <li>Cranio-Sacral massage</li>
             <li>Couples massage</li>
@@ -73,14 +73,14 @@
             <li>Swedish massage</li> 
         </ol>
 
-        <li><a data_list="nails_list" id="nails" href="#services">Nails</a></li>
+        <li><a name="nails_list" id="nails" href="#services">Nails</a></li>
         <ol class="hide" id="nails_list">
             <li>Manicure</li>
             <li>Pedicure</li>
             <li>Shellac Manicure</li>
         </ol>
 
-    	<li><a data_list="waxing_list" id="waxing" href="#services">Waxing</a></li>
+    	<li><a name="waxing_list" id="waxing" href="#services">Waxing</a></li>
     	<ol class="hide" id="waxing_list">
             <li>Back</li>
             <li>Bikini</li>
@@ -148,13 +148,13 @@
             allLists[i].className = "hide";
         }
 
-        var listId = this.attributes["data_list"].value;
+        var listId = this.attributes["name"].value;
         var list = document.getElementById(listId);
-        if(list.className === "hide") {
+        if(list.className == "hide") {
             list.className = "";
         }
         else {
-            pic.className = "hide";
+            list.className = "hide";
         }
     }
 
