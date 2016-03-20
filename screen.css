@@ -121,7 +121,11 @@ table {
 	padding: 8%;
 }
 
-#services ol {
+#services ol li {
+	margin-left: 3em;
+}
+
+.hide {
 	display: none;
 }
 

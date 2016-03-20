@@ -50,18 +50,20 @@
   </div> <!-- End of Staff -->
 
   <div id="services">
+    <a name="services">
     <h1>Services</h1>
+    </a>
     <ul>
    
-    	<li>Facials</li>
-    	<ol>
+    	<li><a data_list="facials_list" id="facials" href="#services">Facials</a></li>
+    	<ol class="hide" id="facials_list">
             <li>Classic facial</li>
     		<li>Dermaplaning facial</li>
     		<li>Microdermabrasion facial</li>
     	</ol>
 
-        <li>Massage Therapy</li>
-        <ol>
+        <li><a data_list="massage_list" id="massage" href="#services">Massage Therapy</a></li>
+        <ol class="hide" id="massage_list">
             <li>Cranio-Sacral massage</li>
             <li>Couples massage</li>
             <li>Deep Tissue massage</li>
@@ -71,15 +73,15 @@
             <li>Swedish massage</li> 
         </ol>
 
-        <li>Nails</li>
-        <ol>
+        <li><a data_list="nails_list" id="nails" href="#services">Nails</a></li>
+        <ol class="hide" id="nails_list">
             <li>Manicure</li>
             <li>Pedicure</li>
             <li>Shellac Manicure</li>
         </ol>
 
-    	<li>Waxing</li>
-    	<ol>
+    	<li><a data_list="waxing_list" id="waxing" href="#services">Waxing</a></li>
+    	<ol class="hide" id="waxing_list">
             <li>Back</li>
             <li>Bikini</li>
             <li>Brazilian</li>
@@ -127,6 +129,36 @@
     </div> 
 
   </div> <!-- End of Signup -->
+
+  <script>
+    var facials = document.getElementById("facials");
+    var massage = document.getElementById("massage");
+    var nails = document.getElementById("nails");
+    var waxing = document.getElementById("waxing");
+
+    facials.addEventListener("click", listLink);
+    massage.addEventListener("click", listLink);
+    nails.addEventListener("click", listLink);
+    waxing.addEventListener("click", listLink);
+
+    function listLink() {
+        var allLists = document.querySelectorAll("ol");
+
+        for (var i = 0; i < allLists.length; i++){
+            allLists[i].className = "hide";
+        }
+
+        var listId = this.attributes["data_list"].value;
+        var list = document.getElementById(listId);
+        if(list.className === "hide") {
+            list.className = "";
+        }
+        else {
+            pic.className = "hide";
+        }
+    }
+
+  </script>
 </body>
 
 </html>
