@@ -127,7 +127,7 @@ table {
 
 #specials {
 	background-color: #DAD6D7;
-	min-height: 20em;
+	min-height: 28em;
 }
 
 #specials h1 {
@@ -135,6 +135,7 @@ table {
 	text-align: center;
 	padding-top: 5%;
 }
+
 
 #specials img {
 	border-radius: 50%;
@@ -146,10 +147,28 @@ table {
 }
 
 #specials figcaption {
-	float: right;
-	padding-top: 10%;
-	padding-right: 10%;
+	font-weight: bold;
+	float: left;
+	padding-top: 5%;
+	padding-left: 10%;
 	position: relative;
+}
+
+#specials p {
+	padding-left: 5%;
+	font-weight: normal;
+}
+
+.flexbox img {
+	width: auto;
+	margin-left: 0;
+}
+
+.flexbox figcation {
+	width: 0;
+	position: static;
+	top: auto;
+	left: auto;
 }
 
 #joinus{
@@ -244,6 +263,11 @@ table {
 	padding-top: 10%;
 	padding-left: 10%;
 	position: relative;
+}
+
+#specials p {
+	padding: 1%;
+	visibility: visible;
 }
 
 @media screen and (min-width: 50em) { /*800px*/
