@@ -113,6 +113,30 @@ table {
 	padding-top: 5%;
 }
 
+#facials {
+	font-family: 'Tangerine', cursive;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+#massage {
+	font-family: 'Tangerine', cursive;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+#nails {
+	font-family: 'Tangerine', cursive;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+#waxing {
+	font-family: 'Tangerine', cursive;
+	text-decoration: none;
+	font-size: 2em;
+}
+
 #services ul {
 	padding: 10%;
 }
@@ -163,7 +187,7 @@ table {
 	font-weight: normal;
 }
 
-.flexbox img {
+/*.flexbox img {
 	width: auto;
 	margin-left: 0;
 }
@@ -174,6 +198,7 @@ table {
 	top: auto;
 	left: auto;
 }
+*/
 
 #joinus{
 	background-color: #29A3C2;
