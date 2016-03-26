@@ -184,6 +184,7 @@ table {
 
 #specials p {
 	padding-left: 5%;
+	padding-right: 5%;
 	font-weight: normal;
 }
 
@@ -214,7 +215,8 @@ table {
 
 #joinus p{
 	padding-left: 5%;
-	padding-bottom: 5%
+	padding-bottom: 5%;
+	padding-right: 5%;
 }
 
 .signup {
